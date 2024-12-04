@@ -1,17 +1,14 @@
-
-import './App.css'
-import Navbar from './components/Navbar'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Shop from "./components/Shop";
 
 function App() {
-
   return (
     <>
       <Navbar />
-      <h1 className="text-blue-700 ">
-        Test
-      </h1>
+      <Shop />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
