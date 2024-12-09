@@ -26,7 +26,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 2,
         name: "Smart TV",
         description: "Wired Over-Ear Gaming Headphones with USB",
         image: gaming,
@@ -37,7 +37,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 3,
         name: "Smart TV",
         description: "Dell Optiplex 7000x7480 All-in-One Computer Monitor",
         image: gaming,
@@ -48,7 +48,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 4,
         name: "Smart TV",
         description:
           "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Ca...",
@@ -60,7 +60,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 5,
         name: "Smart TV",
         description:
           "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Ca...",
@@ -103,7 +103,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 2,
         name: "Smart TV",
         description: "Wired Over-Ear Gaming Headphones with USB",
         image: gaming,
@@ -114,7 +114,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 3,
         name: "Smart TV",
         description: "Dell Optiplex 7000x7480 All-in-One Computer Monitor",
         image: gaming,
@@ -125,7 +125,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 4,
         name: "Smart TV",
         description:
           "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Ca...",
@@ -137,7 +137,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 5,
         name: "Smart TV",
         description:
           "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Ca...",
@@ -180,7 +180,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 2,
         name: "Smart TV",
         description: "Wired Over-Ear Gaming Headphones with USB",
         image: gaming,
@@ -191,7 +191,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 3,
         name: "Smart TV",
         description: "Dell Optiplex 7000x7480 All-in-One Computer Monitor",
         image: gaming,
@@ -202,7 +202,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 4,
         name: "Smart TV",
         description:
           "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Ca...",
@@ -214,7 +214,7 @@ export const shops = [
         reviews: 911,
       },
       {
-        id: 1,
+        id: 5,
         name: "Smart TV",
         description:
           "Polaroid 57-Inch Photo/Video Tripod with Deluxe Tripod Ca...",
