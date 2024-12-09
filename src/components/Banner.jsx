@@ -7,7 +7,7 @@ const Banner = ({
   bannerColor,
 }) => {
   return (
-    console.log(tagline, description, discount, bannerImage, bannerColor),
+    console.log(bannerColor),
     (
       <div
         className={`lg:col-span-2  rounded-[20px]  text-white flex gap-6 bg-${bannerColor}`}

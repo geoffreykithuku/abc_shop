@@ -19,7 +19,9 @@ const Shop = ({ shop }) => {
   return (
     <div className="px-2 lg:px-[89px] mt-10">
       <div className="lg:bg-secondary rounded-[20px] p-3">
-        <h1 className={`text-lg mb-3 font-bold block lg:hidden text-${bannerColor}` }>
+        <h1
+          className={`text-lg mb-3 font-bold block lg:hidden text-${bannerColor}`}
+        >
           {name}
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -32,7 +34,7 @@ const Shop = ({ shop }) => {
           />
           <ShopInfo contact={contact} name={name} />
         </div>
-        <ProductsList products={products} />
+        <ProductsList products={products} name={name} />
       </div>
     </div>
   );

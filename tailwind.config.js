@@ -26,6 +26,7 @@ export default {
 
         blue: {
           DEFAULT: "#3478F6",
+          100: "#3478F6",
         },
       },
       boxShadow: {

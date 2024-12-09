@@ -2,13 +2,13 @@ import ProductCard from "./ProductCard";
 import { ChevronRight } from "lucide-react";
 import PropTypes from "prop-types";
 
-const ProductsList = ({ products }) => {
+const ProductsList = ({ products, name }) => {
   return (
     <div className="py-5">
       <header className="pb-5 relative border-b flex justify-between items-center text-[8px] lg:text-2xl">
         <h2 className="font-bold ">
           <span className="relative inline-block">
-            Alana Electronics
+            {name}
             <span className="absolute bottom-[-22px] left-0 w-full border-b-4 border-primary-100"></span>
           </span>
           <span className="text-black font-normal">
@@ -34,5 +34,6 @@ const ProductsList = ({ products }) => {
 export default ProductsList;
 
 ProductsList.propTypes = {
-    products: PropTypes.array,
-    };
+  products: PropTypes.array,
+  name: PropTypes.string,
+};
