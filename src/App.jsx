@@ -1,14 +1,16 @@
 import "./App.css";
+import { shops } from "./data/shopsData";
+import Shop from "../src/components/Shop";
 import Navbar from "./components/Navbar";
-import Shop from "./components/Shop";
-
-function App() {
+const App = () => {
   return (
-    <>
+    <div>
       <Navbar />
-      <Shop />
-    </>
+      {shops.map((shop) => (
+        <Shop key={shop.id} shop={shop} />
+      ))}
+    </div>
   );
-}
+};
 
 export default App;
